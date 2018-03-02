@@ -64,3 +64,26 @@ h1.text-content{
   top: 0;
   right: 31.5%;
 }
+
+/* THIRD BLOCK COMPLETED */
+
+[background="yellow"]{
+  background-color: #fdcb4f;
+}
+
+[background="yellow"] .text-content{
+  padding: 10%;
+}
+.text-content h1,p, .img-content{
+  text-align: center;
+}
+.text-content h1{
+  font-size: 6em;
+}
+.text-content p{
+  font-size: 2em;
+}
+.img-content img{
+  width: 20%;
+  margin-top: 5%;
+}
