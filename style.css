@@ -1,0 +1,20 @@
+*{
+  font-family: Catamaran;
+}
+
+.navbar.navbar-inverse{
+  background-image: url("img/bg-pattern.png");
+  background-image: linear-gradient(to left,#7b4397,#dc2430);
+  border-style: hidden;
+
+}
+
+.navbar-header .navbar-brand{
+  font-size: 24px;
+  color: #fdcc52;
+}
+
+.nav.navbar-nav.navbar-right{
+  font-size: 16px;
+  
+}
