@@ -108,3 +108,19 @@ h1.text-content{
   font-size: 5em;
   color: #a5366b;
 }
+
+[background="img-build"]{
+   background-image: url("img/build.png");
+   background-size: cover;
+   /* height: 40vh; */
+
+ }
+#text-img-build{
+   padding-top: 40%;
+   padding-bottom: 40%;
+ }
+
+#text-img-build h1{
+   font-size: 5em;
+   padding-bottom: 5%;
+ }
