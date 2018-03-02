@@ -1,10 +1,11 @@
 *{
-  font-family: Catamaran;
+  font-family: 'Catamaran', sans-serif;
+/* font-family: 'Montserrat', sans-serif; */
 }
-
+/* NAV BAR */
 .navbar.navbar-inverse{
-  background-image: url("img/bg-pattern.png");
-  background-image: linear-gradient(to left,#7b4397,#dc2430);
+  background-size: contain;
+  background: url("https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png"),linear-gradient(to left, #7b4397, #dc2430);
   border-style: hidden;
 
 }
@@ -16,5 +17,50 @@
 
 .nav.navbar-nav.navbar-right{
   font-size: 16px;
-  
+}
+
+/* FIRST BLOCK  */
+[background="bg-pattern"]{
+  background-size: contain;
+  background: url("https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png"),linear-gradient(to left, #7b4397, #dc2430);
+}
+
+h1.text-content{
+  color: white;
+  font-size: 54px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 1.4;
+}
+
+.col-md-5.col-md-offset-1{
+  margin-top: 5%;
+  height: 100vh;
+}
+
+.col-md-5.col-md-offset-1 button{
+  background: none;
+  color: white;
+  padding: 3%;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+/* IMG INTO DEVICE */
+.row{
+  position: relative;
+}
+
+#img-screen{
+  width: 65%;
+  margin-top: 17%;
+  position: relative;
+  z-index: 1;
+}
+
+#img-phone{
+  width: 70%;
+  position: absolute;
+  top: 0;
+  right: 31.5%;
 }
