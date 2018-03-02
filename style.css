@@ -2,6 +2,22 @@
   font-family: 'Catamaran', sans-serif;
 /* font-family: 'Montserrat', sans-serif; */
 }
+/*GENERAL CLASSES  */
+.padding-5{
+  padding: 5%;
+}
+.padding-10b{
+    padding: 10%;
+}
+
+.margin{
+  margin-top: 5%;
+}
+h2{
+  font-size: 46px;
+}
+
+
 /* NAV BAR */
 .navbar.navbar-inverse{
   background-size: contain;
@@ -25,9 +41,14 @@
   background: url("https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png"),linear-gradient(to left, #7b4397, #dc2430);
 }
 
+[background="bg-pattern"] .text-content{
+  padding-top: 20%;
+
+}
+
 h1.text-content{
   color: white;
-  font-size: 54px;
+  font-size: 46px;
   font-weight: 200;
   letter-spacing: 1px;
   line-height: 1.4;
@@ -35,7 +56,7 @@ h1.text-content{
 
 .col-md-5.col-md-offset-1{
   margin-top: 5%;
-  height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .col-md-5.col-md-offset-1 button{
@@ -52,20 +73,14 @@ h1.text-content{
 }
 
 #img-screen{
-  width: 65%;
-  margin-top: 17%;
+  margin-top: 25%;
   position: relative;
   z-index: 1;
+  padding-bottom: 20%;
 }
 
-#img-phone{
-  width: 70%;
-  position: absolute;
-  top: 0;
-  right: 31.5%;
-}
 
-/* THIRD BLOCK COMPLETED */
+/* SECOND BLOCK COMPLETED */
 
 [background="yellow"]{
   background-color: #fdcb4f;
@@ -78,12 +93,18 @@ h1.text-content{
   text-align: center;
 }
 .text-content h1{
-  font-size: 6em;
+  font-size: 4.5em;
 }
 .text-content p{
-  font-size: 2em;
+  font-size: 1.2em;
 }
-.img-content img{
-  width: 20%;
-  margin-top: 5%;
+
+/*THIRD BLOCK */
+#box-service{
+  margin-top: 15%;
+}
+
+.fas{
+  font-size: 5em;
+  color: #a5366b;
 }
