@@ -46,9 +46,6 @@ h2{
 
 /* FIRST BLOCK  */
 
-.container-fluid.min-height{
-  min-height: 100vh;
-}
 [background="bg-pattern"]{
   background-size: contain;
   background: url("https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png"),linear-gradient(to left, #7b4397, #dc2430);
@@ -87,15 +84,13 @@ h1.text-content{
 
 .col-md-4.col-md-offset-1{
   position: relative;
-
 }
 
-#img-screen{
+.screen-device-content.first-block #img-screen{
   width: 81%;
   position: absolute;
   top: 12%;
   right: 9%;
-
 }
 
 
